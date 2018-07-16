@@ -1,8 +1,8 @@
 # Self Learning Python
 
 ## Codes reffered from:
-  1. Learning Python OReilly.
-  2. Python CookBook OReilly.
+  1. Learning Python O'Reilly.
+  2. Python CookBook O'Reilly.
   3. Github : https://github.com/jackfrued/Python-100-Days
   4. Udemy.
   
