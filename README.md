@@ -9,5 +9,5 @@
 
 ## Objective
 
-  This repository contains basics and intermediate level of python code. Codes are  intentionally and purposefully written
-  to learn and enhance python .I will try to add some small python apps progressively.
+  This repository contains basics and intermediate level of python code. Codes are written for self learning and enhancing python
+  coding skills. All programms are tested and runnable wihtout any errors.I will try to add some small python apps progressively.
