@@ -4,4 +4,5 @@ print(2 ** 100)
 x = 'Spam!'
 print(x * 8)
 print(x * 2)
-input()
+# testing exec() to execute a module using command line
+# input()
