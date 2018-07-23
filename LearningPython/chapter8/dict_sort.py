@@ -15,7 +15,7 @@ except AttributeError:
 # Method 2
 D = {'b': 2, 'c': 3, 'a': 1}
 for k in sorted(D.keys()):
-    print(k,D[k])
+    print(k, D[k])
 
 
 
