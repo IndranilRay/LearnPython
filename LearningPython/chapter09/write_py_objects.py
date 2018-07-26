@@ -12,8 +12,14 @@ F.close()
 F = open('datafile.txt', 'r')
 line = F.readline()
 print(line.rstrip())
-
-
+line = F.readline()
+P = line.split(',')
+numbers = [int(P) for P in P]
+print(numbers)
+line = F.readline()
+parts = line.split('$')
+objects = [eval(P) for P in parts]
+print(objects)
 
 
 
