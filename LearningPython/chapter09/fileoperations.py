@@ -16,4 +16,4 @@ print(open('myfile.txt').read())
 
 # scan a text file line by line'
 for line in open('myfile.txt'):
-    print(line,end='')
+    print(line, end='')
