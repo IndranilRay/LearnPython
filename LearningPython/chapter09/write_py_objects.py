@@ -20,6 +20,7 @@ line = F.readline()
 parts = line.split('$')
 objects = [eval(P) for P in parts]
 print(objects)
+F.close()
 
 
 
