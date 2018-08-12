@@ -10,4 +10,4 @@
 ## Objective
 
   This repository contains basics and intermediate level of python code. Codes are written for self learning and enhancing python
-  coding skills. All programms are tested and runnable wihtout any errors.I will try to add some small python apps progressively.
+  coding skills. All programs are unit tested.I will try to add some small python apps progressively.
