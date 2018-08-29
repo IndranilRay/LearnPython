@@ -1,6 +1,6 @@
 # File person-composite.py
 # Embedding-based manager alternative
-
+# No subclassing hence building objects using composites
 
 class Person:
     def __init__(self, name, job=None, pay=0):
