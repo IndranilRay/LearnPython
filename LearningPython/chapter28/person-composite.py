@@ -7,7 +7,6 @@ class Person:
         self.name = name
         self.pay = pay
         self.job = job
-        self.pay = pay
 
     def last_name(self):
         return self.name.split()[-1]
