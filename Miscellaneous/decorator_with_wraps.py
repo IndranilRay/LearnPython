@@ -1,5 +1,8 @@
-def a_new_decorator(a_func):
+from functools import wraps
 
+
+def a_new_decorator(a_func):
+    @wraps(a_func)
     def wrap_the_func():
         print("I am doing some boring work before executing a_func")
 
@@ -17,4 +20,4 @@ def a_function_requiring_decoration():
 
 a_function_requiring_decoration()
 
-
+print(a_function_requiring_decoration.__name__)
