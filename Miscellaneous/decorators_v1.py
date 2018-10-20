@@ -20,6 +20,27 @@ a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoratio
 a_function_requiring_decoration()
 
 
+"""
+    Adding another decorator function 
+    date: 08-10-2018
+"""
 
 
+def decorator_function(original_function):
+    def wrapper_function():
+        print("wrapper executed this before {}".format(original_function.__name__))
+        return original_function()
+    return wrapper_function
+
+
+@decorator_function
+def display():
+    print("Display method ran")
+
+
+# decorated_display = decorator_function(display)
+# print(decorated_display)
+# print(decorated_display())
+
+display()
 
