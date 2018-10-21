@@ -1,6 +1,7 @@
 """
  Demonstrating Regular , Static and Class Method
 """
+import datetime
 
 
 class Employees:
@@ -35,6 +36,16 @@ class Employees:
         first, last, pay = emp_str.split('-')
         return cls(first, last, pay)
 
+    @staticmethod
+    def is_workday(day):
+        """
+        A logically connected method of the class.
+        :return:
+        """
+        if day.weekday() == 5 or day.weekday() == 5:
+            return False
+        return True
+
 
 emp_1 = Employees('Neal', 'Ray', 7000)
 emp_2 = Employees('John', 'Doe', 4000)
@@ -67,4 +78,5 @@ new_emp_1 = Employees.from_string(emp_str_1)
 print(new_emp_1.__dict__)
 
 
-
+my_date = datetime.date(2018, 10, 17)
+print(Employees.is_workday(my_date))
