@@ -14,14 +14,24 @@ class Employee:
     def email(self):
         return '{}.{}@email.com'.format(self.first, self.last)
 
+    @property
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
+    @fullname.setter
+    def fullname(self, name):
+        #return '{} {}'.format(self.first, self.last)
+        first, last = name.split(' ')
+        self.first = first
+        self.last = last
+
 
 emp_1 = Employee('John', 'Smith')
-emp_1.first = 'Jim'
+# emp_1.first = 'Jim'
+
+# emp_1.fullname = 'Neal Ray'
 
 print(emp_1.first)
 print(emp_1.email)
-print(emp_1.fullname())
+print(emp_1.fullname)
 
