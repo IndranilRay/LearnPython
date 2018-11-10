@@ -1,3 +1,8 @@
+"""
+    This class implements user defined iterables by simply
+    implementing the iteration protocol
+"""
+
 class Squares:
     def __init__(self, start, stop):
         self.value = start - 1
