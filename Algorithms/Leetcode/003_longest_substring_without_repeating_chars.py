@@ -19,3 +19,21 @@ given_str = 'pwwkev'
 
 get_length = Solution()
 print(get_length.get_longest_substring(given_str))
+
+
+letters = 'geekforgeeks'
+
+for letter in letters:
+    if letter == 'e' or letter == 's':
+        continue
+    print('Current letter is {} '.format(letter))
+
+
+list_input = ['a', 'e', 'i', 'o', 'u']
+
+for i in range(len(list_input) - 1, -1, -1):
+    print(list_input[i])
+
+
+
+

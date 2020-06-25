@@ -13,11 +13,11 @@ def a_function_requiring_decoration():
     print("I am the function which needs some decoration")
 
 
-a_function_requiring_decoration()
-
-a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoration)
-
-a_function_requiring_decoration()
+# a_function_requiring_decoration()
+#
+# a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoration)
+#
+# a_function_requiring_decoration()
 
 
 """
@@ -38,9 +38,9 @@ def display():
     print("Display method ran")
 
 
-# decorated_display = decorator_function(display)
-# print(decorated_display)
-# print(decorated_display())
+decorated_display = decorator_function(display)
+#print(decorated_display)
+#print(decorated_display())
 
 display()
 
